@@ -1,30 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 240" width="1010" height="240">
   <defs>
-    <linearGradient id="scopeGrad" gradientUnits="userSpaceOnUse" x1="340" y1="20" x2="340" y2="248">
+    <linearGradient id="scopeGrad" gradientUnits="userSpaceOnUse" x1="76" y1="8" x2="76" y2="198">
       <stop offset="0%" stop-color="#12b8d6"/>
       <stop offset="55%" stop-color="#0f9d8f"/>
       <stop offset="100%" stop-color="#22b06a"/>
     </linearGradient>
   </defs>
 
-  <g transform="translate(220,10) scale(1.2)" fill="none" stroke="url(#scopeGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="82" cy="40" r="11"/>
-    <circle cx="118" cy="40" r="11"/>
-    <path d="M82,50 Q90,62 100,68"/>
-    <path d="M118,50 Q110,62 100,68"/>
-    <path d="M100,68 L100,104"/>
-    <circle cx="100" cy="116" r="12"/>
-    <path d="M68,140 L132,140"/>
-    <circle cx="100" cy="140" r="8"/>
-    <path d="M100,148 L100,172"/>
-    <path d="M65,190 L135,190 L120,172 L80,172 Z"/>
-    <circle cx="100" cy="116" r="2.5" fill="url(#scopeGrad)" stroke="none"/>
+  <g transform="translate(16,20)" fill="none" stroke="url(#scopeGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50,192 L128,192"/>
+    <path d="M92,184 L92,192"/>
+
+    <path d="M92.0,184.0 C89.3,181.6 80.3,173.8 75.5,169.5 C70.7,165.2 67.6,161.2 63.3,157.9 C59.0,154.6 54.8,152.7 49.8,149.9 C44.9,147.1 38.7,144.8 33.6,140.9 C28.6,137.0 22.7,132.2 19.4,126.7 C16.1,121.2 13.8,114.1 14.0,107.9 C14.2,101.7 16.9,94.7 20.5,89.5 C24.2,84.2 30.4,79.8 35.7,76.4 C41.0,73.1 47.3,71.4 52.5,69.2 C57.6,66.9 62.0,65.6 66.6,62.8 C71.3,60.0 75.1,56.4 80.6,52.6 C86.2,48.8 96.8,42.1 100.0,40.0"/>
+    <path d="M92.0,184.0 C88.0,184.4 75.6,187.3 68.1,186.3 C60.7,185.4 52.9,182.7 47.4,178.5 C42.0,174.3 37.7,167.6 35.4,161.3 C33.1,155.0 33.3,147.3 33.6,140.9 C34.0,134.5 36.4,128.4 37.4,123.0 C38.5,117.7 39.8,113.4 40.0,108.6 C40.1,103.8 39.0,99.6 38.3,94.3 C37.6,88.9 35.5,82.8 35.7,76.4 C35.9,70.1 36.3,62.4 39.3,56.4 C42.2,50.4 47.3,44.1 53.3,40.5 C59.3,36.9 67.6,35.1 75.4,35.0 C83.2,34.9 95.9,39.2 100.0,40.0"/>
+
+    <path d="M63.3,157.9 L47.4,178.5" stroke-width="4.5"/>
+    <path d="M14.0,107.9 L40.0,108.6" stroke-width="4.5"/>
+    <path d="M66.6,62.8 L53.3,40.5" stroke-width="4.5"/>
+
+    <path d="M33.6,140.9 L112,140.9"/>
+    <path d="M35.7,76.4 L60,94"/>
+    <circle cx="63" cy="97" r="8"/>
+    <path d="M100,40 L124,17"/>
+    <circle cx="124" cy="17" r="9"/>
   </g>
 
-  <g font-family="Montserrat, Poppins, 'Segoe UI', Arial, sans-serif" text-anchor="middle">
-    <text x="340" y="308" font-size="56" font-weight="800" letter-spacing="1"
+  <g transform="translate(16,20)" fill="#ffffff" stroke="#0b3b3f" stroke-width="1.5">
+    <circle cx="92" cy="184" r="4.5"/>
+    <circle cx="33.6" cy="140.9" r="4.5"/>
+    <circle cx="35.7" cy="76.4" r="4.5"/>
+    <circle cx="100" cy="40" r="4.5"/>
+  </g>
+  <g transform="translate(16,20)" fill="url(#scopeGrad)">
+    <circle cx="63" cy="97" r="2.5"/>
+    <circle cx="124" cy="17" r="2.5"/>
+  </g>
+
+  <g font-family="Montserrat, Poppins, 'Segoe UI', Arial, sans-serif">
+    <text x="192" y="160" font-size="100" font-weight="800" letter-spacing="1"
           fill="#0b2b33">TUD&#211;S LESZEK</text>
-    <text x="340" y="346" font-size="21" font-weight="600" letter-spacing="6"
-          fill="#0f766e">BIOL&#211;GIA MAG&#193;NTAN&#205;T&#193;S</text>
   </g>
 </svg>
