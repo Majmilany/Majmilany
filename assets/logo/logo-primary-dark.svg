@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 260" width="860" height="260">
+  <defs>
+    <linearGradient id="dnaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3ee6ff"/>
+      <stop offset="50%" stop-color="#22c9c9"/>
+      <stop offset="100%" stop-color="#2be08a"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0d2b33" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0d2b33" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b12"/>
+      <stop offset="100%" stop-color="#03181c"/>
+    </linearGradient>
+    <filter id="softBlur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="nodeGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="textGlow" x="-40%" y="-150%" width="180%" height="400%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="860" height="260" rx="24" fill="url(#cardBg)"/>
+
+  <g transform="translate(20,10)">
+    <circle cx="120" cy="120" r="112" fill="url(#bgGlow)"/>
+    <g fill="none" stroke-linecap="round">
+      <g stroke="url(#dnaGrad)" opacity="0.5" stroke-width="13" filter="url(#softBlur)">
+        <path d="M120,20 C120,34 165,31 165,45 C165,59 120,56 120,70 C120,84 75,81 75,95 C75,109 120,106 120,120 C120,134 165,131 165,145 C165,159 120,156 120,170 C120,184 75,181 75,195 C75,209 120,206 120,220"/>
+        <path d="M120,20 C120,34 75,31 75,45 C75,59 120,56 120,70 C120,84 165,81 165,95 C165,109 120,106 120,120 C120,134 75,131 75,145 C75,159 120,156 120,170 C120,184 165,181 165,195 C165,209 120,206 120,220"/>
+      </g>
+      <g stroke="url(#dnaGrad)" stroke-width="4.5" opacity="0.9">
+        <path d="M75,45 L165,45"/>
+        <path d="M75,95 L165,95"/>
+        <path d="M75,145 L165,145"/>
+        <path d="M75,195 L165,195"/>
+      </g>
+      <path d="M120,20 C120,34 165,31 165,45 C165,59 120,56 120,70 C120,84 75,81 75,95 C75,109 120,106 120,120 C120,134 165,131 165,145 C165,159 120,156 120,170 C120,184 75,181 75,195 C75,209 120,206 120,220"
+            stroke="url(#dnaGrad)" stroke-width="7"/>
+      <path d="M120,20 C120,34 75,31 75,45 C75,59 120,56 120,70 C120,84 165,81 165,95 C165,109 120,106 120,120 C120,134 75,131 75,145 C75,159 120,156 120,170 C120,184 165,181 165,195 C165,209 120,206 120,220"
+            stroke="url(#dnaGrad)" stroke-width="7"/>
+    </g>
+    <g fill="#eafffb">
+      <circle cx="120" cy="20" r="6"/>
+      <circle cx="120" cy="70" r="6"/>
+      <circle cx="120" cy="120" r="6"/>
+      <circle cx="120" cy="170" r="6"/>
+      <circle cx="120" cy="220" r="6"/>
+    </g>
+    <g fill="#8ff5e0" filter="url(#nodeGlow)" opacity="0.85">
+      <circle cx="120" cy="20" r="6"/>
+      <circle cx="120" cy="70" r="6"/>
+      <circle cx="120" cy="120" r="6"/>
+      <circle cx="120" cy="170" r="6"/>
+      <circle cx="120" cy="220" r="6"/>
+    </g>
+  </g>
+
+  <g font-family="Montserrat, Poppins, 'Segoe UI', Arial, sans-serif">
+    <text x="300" y="128" font-size="66" font-weight="800" letter-spacing="1"
+          fill="url(#dnaGrad)" filter="url(#textGlow)" opacity="0.6">TUD&#211;S LESZEK</text>
+    <text x="300" y="128" font-size="66" font-weight="800" letter-spacing="1"
+          fill="#f4fffb">TUD&#211;S LESZEK</text>
+
+    <text x="302" y="168" font-size="24" font-weight="600" letter-spacing="7"
+          fill="#5eead4">BIOL&#211;GIA MAG&#193;NTAN&#205;T&#193;S</text>
+  </g>
+</svg>
