@@ -1,6 +1,6 @@
 # TUDÓS LESZEK – logó
 
-Prémium, neonos-tudományos hangulatú logó biológia magántanításhoz (kékeszöld DNS-motívum).
+Prémium, tudományos hangulatú logó biológia magántanításhoz: minimál, vékony vonalas mikroszkóp-piktogram (szemből ábrázolva, binokuláris szemlencsékkel, tárgyasztallal és talppal), a kékeszöld színátmenetbe és a feliratba szervesen beépítve.
 
 ## Fájlok
 

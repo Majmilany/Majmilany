@@ -1,48 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 260" width="860" height="260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400">
   <defs>
-    <linearGradient id="dnaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0ea5c4"/>
-      <stop offset="50%" stop-color="#0f9d8f"/>
-      <stop offset="100%" stop-color="#12a15a"/>
+    <linearGradient id="scopeGrad" gradientUnits="userSpaceOnUse" x1="340" y1="20" x2="340" y2="248">
+      <stop offset="0%" stop-color="#12b8d6"/>
+      <stop offset="55%" stop-color="#0f9d8f"/>
+      <stop offset="100%" stop-color="#22b06a"/>
     </linearGradient>
-    <filter id="softBlur" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4"/>
-    </filter>
-    <filter id="nodeGlow" x="-150%" y="-150%" width="400%" height="400%">
-      <feGaussianBlur stdDeviation="2.5"/>
-    </filter>
   </defs>
 
-  <g transform="translate(20,10)">
-    <g fill="none" stroke-linecap="round">
-      <g stroke="url(#dnaGrad)" opacity="0.28" stroke-width="13" filter="url(#softBlur)">
-        <path d="M120,20 C120,34 165,31 165,45 C165,59 120,56 120,70 C120,84 75,81 75,95 C75,109 120,106 120,120 C120,134 165,131 165,145 C165,159 120,156 120,170 C120,184 75,181 75,195 C75,209 120,206 120,220"/>
-        <path d="M120,20 C120,34 75,31 75,45 C75,59 120,56 120,70 C120,84 165,81 165,95 C165,109 120,106 120,120 C120,134 75,131 75,145 C75,159 120,156 120,170 C120,184 165,181 165,195 C165,209 120,206 120,220"/>
-      </g>
-      <g stroke="url(#dnaGrad)" stroke-width="4.5" opacity="0.9">
-        <path d="M75,45 L165,45"/>
-        <path d="M75,95 L165,95"/>
-        <path d="M75,145 L165,145"/>
-        <path d="M75,195 L165,195"/>
-      </g>
-      <path d="M120,20 C120,34 165,31 165,45 C165,59 120,56 120,70 C120,84 75,81 75,95 C75,109 120,106 120,120 C120,134 165,131 165,145 C165,159 120,156 120,170 C120,184 75,181 75,195 C75,209 120,206 120,220"
-            stroke="url(#dnaGrad)" stroke-width="7"/>
-      <path d="M120,20 C120,34 75,31 75,45 C75,59 120,56 120,70 C120,84 165,81 165,95 C165,109 120,106 120,120 C120,134 75,131 75,145 C75,159 120,156 120,170 C120,184 165,181 165,195 C165,209 120,206 120,220"
-            stroke="url(#dnaGrad)" stroke-width="7"/>
-    </g>
-    <g fill="#ffffff" stroke="#0b3b3f" stroke-width="1.5">
-      <circle cx="120" cy="20" r="6"/>
-      <circle cx="120" cy="70" r="6"/>
-      <circle cx="120" cy="120" r="6"/>
-      <circle cx="120" cy="170" r="6"/>
-      <circle cx="120" cy="220" r="6"/>
-    </g>
+  <g transform="translate(220,10) scale(1.2)" fill="none" stroke="url(#scopeGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="82" cy="40" r="11"/>
+    <circle cx="118" cy="40" r="11"/>
+    <path d="M82,50 Q90,62 100,68"/>
+    <path d="M118,50 Q110,62 100,68"/>
+    <path d="M100,68 L100,104"/>
+    <circle cx="100" cy="116" r="12"/>
+    <path d="M68,140 L132,140"/>
+    <circle cx="100" cy="140" r="8"/>
+    <path d="M100,148 L100,172"/>
+    <path d="M65,190 L135,190 L120,172 L80,172 Z"/>
+    <circle cx="100" cy="116" r="2.5" fill="url(#scopeGrad)" stroke="none"/>
   </g>
 
-  <g font-family="Montserrat, Poppins, 'Segoe UI', Arial, sans-serif">
-    <text x="300" y="128" font-size="66" font-weight="800" letter-spacing="1"
+  <g font-family="Montserrat, Poppins, 'Segoe UI', Arial, sans-serif" text-anchor="middle">
+    <text x="340" y="308" font-size="56" font-weight="800" letter-spacing="1"
           fill="#0b2b33">TUD&#211;S LESZEK</text>
-    <text x="302" y="168" font-size="24" font-weight="600" letter-spacing="7"
+    <text x="340" y="346" font-size="21" font-weight="600" letter-spacing="6"
           fill="#0f766e">BIOL&#211;GIA MAG&#193;NTAN&#205;T&#193;S</text>
   </g>
 </svg>
